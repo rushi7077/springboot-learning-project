@@ -82,12 +82,4 @@ public class ProductServiceTest {
         assertFalse(book);
     }
 
-    @AfterAll
-    public static void Destroy(){
-        System.out.println("AfterAll");
-    }
-    @AfterEach
-    public void cleanup(){
-        System.out.println("AfterEach");
-    }
 }
